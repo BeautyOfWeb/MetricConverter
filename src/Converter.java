@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class MetricConverter {
   public static float converter(float sourceNum, String fromMetric, String toMetric) {
-    System.out.println("Welcome to MetricConverter");
+    
     float targetNum = 0;
     switch (fromMetric) {
       case "kg":
